@@ -1,3 +1,89 @@
 *{
   box-sizing: border-box;
 }
+body{
+  position: relative;
+}
+div.all{
+  width   : 1450px;
+  height  : 4815px;
+  left    : 203px;
+  right   : 203px;
+  position: absolute;
+}
+header{
+  position: fixed;
+  height  : 110px;
+  width   : inherit;
+}
+div.top-head{
+  width           : 100%;
+  background-color: #00838F;
+  height          : 90px;
+  position        : relative;
+  display         : flex;
+  flex-direction  : row-reverse;
+  overflow        : hidden;
+}
+img.logoright{
+  position    : absolute;
+  right       : 0;
+  width       : 250px;
+  height      : 79.16px;
+  margin-right: 62px;
+}
+img.logoleft{
+  position   : absolute;
+  left       : 0;
+  width      : 227px;
+  height     : 60px;
+  margin-left: 16px;
+}
+div.search{
+  position      : absolute;
+  left          : 50%;
+  top           : 50%;
+  transform     : translate(-50%, -50%);
+  width         : 362px;
+  height        : 44px;
+  display       : flex;
+  flex-direction: row-reverse;
+}
+div.search input{
+  width        : 315px;
+  height       : 44px;
+  direction    : rtl;
+  padding      : 2px 12px 8px;
+  font-size    : 14.66px;
+  border       : none;
+  outline      : none;
+  border-radius: 0 3px 3px 0;
+}
+::placeholder {
+  color  : #aaa;
+  opacity: 1;
+}
+div.l-icon{
+  width           : 46px;
+  height          : 44px;
+  background-color: white;
+  border-right    : 1px solid #d2e5e8;
+  border-radius   : 3px 0 0 3px;
+  position        : relative;
+}
+div.l-icon span{
+  position : absolute;
+  font-size: 20px;
+  color    : #3d96ae;
+  top      : 7px;
+  left     : 12px;
+}
+div.sayeh{
+  position  : absolute;
+  left      : 50%;
+  top       : calc(50% + 32px);
+  transform : translate(-50%, -50%);
+  width     : 358px;
+  height    : 20px;
+  background: -webkit-gradient(linear, 0 0, 0 70%, from(#489fa6), to(#00838F));
+}
