@@ -356,12 +356,26 @@ div.link-8 span{
   margin-right: 2px;
 }
 div.ofogh{
-  position: absolute;
-  left: 8px;
-  top: 7.7px;
+  position      : absolute;
+  left          : 8px;
+  top           : 7.7px;
+  display       : flex;
+  flex-direction: row;
 }
 div.ofogh span{
-  color: #00838F;
+  color    : #00838F;
   font-size: 18pt;
-  cursor: pointer;
+  cursor   : pointer;
+}
+div.m-ofogh a{
+  position    : absolute;
+  color       : white;
+  font-size   : 11pt;
+  padding-left: 8px;
+  padding-top : 4px;
+  transition  : 0.5s;
+  width       : 90px;
+}
+div.m-ofogh a:hover{
+  color: #80cbc4;
 }
