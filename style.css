@@ -73,10 +73,10 @@ div.l-icon{
 }
 div.l-icon span{
   position : absolute;
-  font-size: 20px;
+  font-size: 16pt;
   color    : #3d96ae;
-  top      : 7px;
-  left     : 12px;
+  top      : 6px;
+  left     : 11.5px;
 }
 div.sayeh{
   position  : absolute;
@@ -86,4 +86,69 @@ div.sayeh{
   width     : 358px;
   height    : 20px;
   background: -webkit-gradient(linear, 0 0, 0 70%, from(#489fa6), to(#00838F));
+}
+div.i-left{
+  display       : flex;
+  flex-direction: row;
+  position      : absolute;
+  top           : 6.3px;
+  left          : calc(1% + 2px);
+  margin-top    : 0.2px;
+}
+div.i-left div span{
+  font-size       : 19pt;
+  color           : #277e87;
+  background-color: #fff;
+  border-radius   : 100%;
+  position        : absolute;
+  top             : 50%;
+  left            : 50%;
+  transform       : translate(-50%, -50%);
+  height          : 32px;
+  width           : 32px;
+  box-shadow      : 0 0 0.2em 0 #224f56;
+}
+div.globe{
+  position     : relative;
+  width        : 40px;
+  height       : 40px;
+  border       : 1px solid #68bfc8;
+  border-radius: 100%;
+  margin-right : 4px;
+  cursor       : pointer;
+}
+div.phone{
+  position     : relative;
+  width        : 40px;
+  height       : 40px;
+  border       : 1px solid #68bfc8;
+  border-radius: 100%;
+  margin-right : 4px;
+  cursor       : pointer;
+}
+div.enter{
+  position     : relative;
+  width        : 40px;
+  height       : 40px;
+  border       : 1px solid #68bfc8;
+  border-radius: 100%;
+  cursor       : pointer;
+}
+.sf-globe:before{
+  position : absolute;
+  left     : 52%;
+  top      : 46%;
+  transform: translate(-50%, -50%);
+}
+.sf-phone:before{
+  position : absolute;
+  left     : 52%;
+  top      : 46%;
+  transform: translate(-50%, -50%);
+}
+.sf-enter:before{
+  position : absolute;
+  left     : 54%;
+  top      : 46%;
+  transform: translate(-50%, -50%);
 }
