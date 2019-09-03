@@ -16,11 +16,12 @@ div.all{
   left    : 203px;
   right   : 203px;
   position: absolute;
+  background-color: #eee;
 }
 header{
-  position: fixed;
-  height  : 110px;
-  width   : inherit;
+  position  : fixed;
+  width     : inherit;
+  /*box-shadow: 0 0 0.8em 0 #000;*/
 }
 div.top-head{
   width           : 100%;
@@ -378,4 +379,53 @@ div.m-ofogh a{
 }
 div.m-ofogh a:hover{
   color: #80cbc4;
+}
+div.section1{
+  width: 1416px;
+  height: 419px;
+  margin: 138px 17px 0 17px;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 17px;
+}
+div.img-right1{
+  width: 643px;
+  height: 402px;
+}
+div.img-min1{
+  width: 643px;
+  height: 402px;
+  position: relative;
+}
+div.sec1-post1{
+  position: absolute;
+  width: 321.5px;
+  height: 192px;
+  top: 0;
+  right: 0;
+}
+div.sec1-post2{
+  position: absolute;
+  width: 321.5px;
+  height: 192px;
+  top: 0;
+  left: 0;
+}
+div.sec1-post3{
+  position: absolute;
+  width: 321.5px;
+  height: 192px;
+  bottom: 0;
+  right: 0;
+}
+div.sec1-post4{
+  position: absolute;
+  width: 321.5px;
+  height: 192px;
+  bottom: 0;
+  left: 0;
+}
+div.img-left1{
+  width: 130px;
+  height: 419px;
 }
