@@ -21,7 +21,8 @@ div.all{
 header{
   position  : fixed;
   width     : inherit;
-  /*box-shadow: 0 0 0.8em 0 #000;*/
+  box-shadow: 0 0 0.9em 0 #000;
+  z-index: 1000;
 }
 div.top-head{
   width           : 100%;
@@ -595,7 +596,7 @@ div.il-r1{
   box-shadow      : 0 0 0.1em 0.03em #e0dddb;
   cursor          : pointer;
   position        : relative;
-  transition      : 0.5s;
+  transition      : 0.3s;
 }
 div.il-r1:hover{
   box-shadow: 0 0 0.5em 0.05em #D1D1D1
@@ -622,7 +623,7 @@ div.il-r2{
   box-shadow      : 0 0 0.1em 0.03em #e0dddb;
   margin-top      : 17px;
   position        : relative;
-  transition      : 0.5s;
+  transition      : 0.3s;
 }
 div.il-r2:hover{
   box-shadow: 0 0 0.5em 0.05em #D1D1D1
@@ -651,7 +652,7 @@ div.il-r3{
   box-shadow      : 0 0 0.1em 0.03em #e0dddb;
   margin-top      : 17px;
   position        : relative;
-  transition      : 0.5s;
+  transition      : 0.3s;
 }
 div.il-r3:hover{
   box-shadow: 0 0 0.5em 0.05em #D1D1D1
@@ -680,7 +681,7 @@ div.il-r4{
   box-shadow      : 0 0 0.1em 0.03em #e0dddb;
   margin-top      : 17px;
   position        : relative;
-  transition      : 0.5s;
+  transition      : 0.3s;
 }
 div.il-r4:hover{
   box-shadow: 0 0 0.5em 0.05em #D1D1D1
@@ -709,6 +710,18 @@ div.text-lt{
   top         : 18px;
   font-size   : 10px;
   word-spacing: -0.5px;
+}
+div.il-r1:hover div.link-ll1{
+  color: #00828F;
+}
+div.il-r2:hover div.link-ll2{
+  color: #00828F;
+}
+div.il-r3:hover div.link-ll3{
+  color: #00828F;
+}
+div.il-r4:hover div.link-ll4{
+  color: #00828F;
 }
 div.link-ll1{
   font-size  : 14.66px;
@@ -753,4 +766,34 @@ div.link-ll4{
   direction  : rtl;
   line-height: 19px;
   color      : #322E2E;
+}
+div.section2{
+  width           : 1416px;
+  height          : 137px;
+  background-color: #bdbdbd;
+  margin          : 15px 8px 0 17px;
+  display         : flex;
+  flex-direction  : row-reverse;
+  position        : relative;
+}
+a#a1{
+  margin: 25px 36px 10px 10px;
+}
+a#a2{
+  margin: 25px 38px 10px 10px;
+}
+a#a3{
+  margin: 25px 38px 10px 10px;
+}
+a#a4{
+  margin: 25px 38px 10px 10px;
+}
+div.pro-exit{
+  position        : absolute;
+  background-color: white;
+  color           : black;
+  font-size       : 10.66px;
+  top             : 5px;
+  right           : 0;
+  padding         : 0 4px 0 0;
 }
