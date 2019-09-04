@@ -584,6 +584,173 @@ div.text2-sp4{
   transition : 0.7s;
 }
 div.img-left1{
-  width : 143px;
-  height: 419px;
+  width       : 135px;
+  height      : 404px;
+  margin-right: 10px;
+}
+div.il-r1{
+  background-color: #FAFAFA;
+  height          : 88px;
+  width           : 130px;
+  box-shadow      : 0 0 0.1em 0.03em #e0dddb;
+  cursor          : pointer;
+  position        : relative;
+  transition      : 0.5s;
+}
+div.il-r1:hover{
+  box-shadow: 0 0 0.5em 0.05em #D1D1D1
+}
+div.il-r1:hover span.mob{
+  box-shadow: 0 0 0.5em 0 #AAA;
+}
+span.mob{
+  height           : 30px;
+  width            : 30px;
+  background-image : url(image/IconPack.png);
+  background-repeat: no-repeat;
+  display          : inline-block;
+  border-radius    : 50%;
+  background-color : #eee;
+  position         : absolute;
+  top              : 10px;
+  left             : 15px;
+}
+div.il-r2{
+  background-color: #FAFAFA;
+  height          : 88px;
+  width           : 130px;
+  box-shadow      : 0 0 0.1em 0.03em #e0dddb;
+  margin-top      : 17px;
+  position        : relative;
+  transition      : 0.5s;
+}
+div.il-r2:hover{
+  box-shadow: 0 0 0.5em 0.05em #D1D1D1
+}
+div.il-r2:hover span.ham{
+  box-shadow: 0 0 0.5em 0 #AAA;
+}
+span.ham{
+  height             : 30px;
+  width              : 30px;
+  background-image   : url(image/IconPack.png);
+  background-repeat  : no-repeat;
+  display            : inline-block;
+  position           : absolute;
+  top                : 10px;
+  left               : 15px;
+  background-position: 4% 5.35%;
+  background-size    : 40px auto;
+  border-radius      : 50%;
+  background-color   : #eee;
+}
+div.il-r3{
+  background-color: #FAFAFA;
+  height          : 88px;
+  width           : 130px;
+  box-shadow      : 0 0 0.1em 0.03em #e0dddb;
+  margin-top      : 17px;
+  position        : relative;
+  transition      : 0.5s;
+}
+div.il-r3:hover{
+  box-shadow: 0 0 0.5em 0.05em #D1D1D1
+}
+div.il-r3:hover span.zek{
+  box-shadow: 0 0 0.5em 0 #AAA;
+}
+span.zek{
+  height             : 30px;
+  width              : 30px;
+  background-image   : url(image/IconPack.png);
+  background-repeat  : no-repeat;
+  display            : inline-block;
+  position           : absolute;
+  top                : 10px;
+  left               : 15px;
+  background-position: 4% 1.8%;
+  background-size    : 40px auto;
+  border-radius      : 50%;
+  background-color   : #eee;
+}
+div.il-r4{
+  background-color: #FAFAFA;
+  height          : 88px;
+  width           : 130px;
+  box-shadow      : 0 0 0.1em 0.03em #e0dddb;
+  margin-top      : 17px;
+  position        : relative;
+  transition      : 0.5s;
+}
+div.il-r4:hover{
+  box-shadow: 0 0 0.5em 0.05em #D1D1D1
+}
+div.il-r4:hover span.rez{
+  box-shadow: 0 0 0.5em 0 #AAA;
+}
+span.rez{
+  height             : 30px;
+  width              : 30px;
+  background-image   : url(image/IconPack.png);
+  background-repeat  : no-repeat;
+  display            : inline-block;
+  position           : absolute;
+  top                : 10px;
+  left               : 15px;
+  background-position: 4% 82.4%;
+  background-size    : 40px auto;
+  border-radius      : 50%;
+  background-color   : #eee;
+}
+div.text-lt{
+  position    : absolute;
+  color       : #9E9E9E;
+  right       : 15px;
+  top         : 18px;
+  font-size   : 10px;
+  word-spacing: -0.5px;
+}
+div.link-ll1{
+  font-size  : 14.66px;
+  position   : absolute;
+  right      : 15px;
+  top        : 36px;
+  font-weight: bold;
+  max-width  : 20px;
+  direction  : rtl;
+  line-height: 19px;
+  color      : #322E2E;
+}
+div.link-ll2{
+  font-size  : 14.66px;
+  position   : absolute;
+  right      : 15px;
+  top        : 36px;
+  font-weight: bold;
+  max-width  : 300px;
+  direction  : rtl;
+  line-height: 19px;
+  color      : #322E2E;
+}
+div.link-ll3{
+  font-size  : 14.66px;
+  position   : absolute;
+  right      : 15px;
+  top        : 36px;
+  font-weight: bold;
+  max-width  : 300px;
+  direction  : rtl;
+  line-height: 19px;
+  color      : #322E2E;
+}
+div.link-ll4{
+  font-size  : 14.66px;
+  position   : absolute;
+  right      : 15px;
+  top        : 36px;
+  font-weight: bold;
+  max-width  : 300px;
+  direction  : rtl;
+  line-height: 19px;
+  color      : #322E2E;
 }
