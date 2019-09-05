@@ -796,4 +796,81 @@ div.pro-exit{
   top             : 5px;
   right           : 0;
   padding         : 0 4px 0 0;
+  border-radius   : 4px;
+}
+div.section3{
+  position      : relative;
+  width         : 1416px;
+  height        : 420px;
+  margin        : 17px 8px 0 17px;
+  display       : flex;
+  flex-direction: row-reverse;
+}
+div.box-r1{
+  width           : 304.5px;
+  height          : 403px;
+  background-color: #FAFAFA;
+  box-shadow      : 0 0 0.1em 0.03em #e0dddb;
+  transition      : 0.3s;
+  direction       : rtl;
+}
+div.box-r1:hover{
+  box-shadow: 0 0 0.5em 0.05em #D1D1D1;
+}
+div.box-r1 header{
+  position: absolute;
+}
+div.box-r1 header h5{
+  border-bottom: 1px solid #f1f0ef;
+  height       : 58px;
+  width        : 100%;
+  padding      : 9px 25px 49px 5px;
+  color        : #00838F;
+  font-size    : 21.33px;
+  line-height  : 1.4;
+  position     : absolute;
+  font-weight  : normal;
+}
+div.br1-content{
+  display : block;
+  position: absolute;
+  height  : 344px;
+  top     : 59px;
+}
+div.br1-con1{
+  font-size: 14.66px;
+  margin   : 20px 0 0 0;
+  padding  : 0 15px 0 0;
+  color    : #322E2E;
+  display  : block;
+  position : relative;
+}
+div.text{
+  transition   : 0.4s;
+  cursor       : pointer;
+  font-weight  : bold;
+  height       : 44px;
+  margin-top   : 10px;
+  line-height  : 1.5;
+  padding-right: 20px;
+}
+span.grey-point{
+  background-color: #C7C2BF;
+  height          : 5px;
+  width           : 5px;
+  display         : block;
+  top             : 10px;
+  right           : 20px;
+  position        : absolute;
+}
+div.text:hover{
+  color: #00828F;
+}
+div.br1-con2{
+  font-size: 14.66px;
+  margin   : 10px 0 0 0;
+  padding  : 0 15px 0 0;
+  color    : #322E2E;
+  display  : block;
+  position : relative;
 }
