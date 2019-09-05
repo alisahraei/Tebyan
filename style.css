@@ -845,7 +845,7 @@ div.br1-con1{
   display  : block;
   position : relative;
 }
-div.text{
+div.text-br1{
   transition   : 0.4s;
   cursor       : pointer;
   font-weight  : bold;
@@ -863,7 +863,7 @@ span.grey-point{
   right           : 20px;
   position        : absolute;
 }
-div.text:hover{
+div.text-br1:hover{
   color: #00828F;
 }
 div.br1-con2{
@@ -873,4 +873,67 @@ div.br1-con2{
   color    : #322E2E;
   display  : block;
   position : relative;
+}
+div.box-r2{
+  width           : 304.5px;
+  height          : 403px;
+  background-color: #FAFAFA;
+  box-shadow      : 0 0 0.1em 0.03em #e0dddb;
+  transition      : 0.3s;
+  direction       : rtl;
+  margin-right    : 17px;
+  position        : relative;
+}
+div.box-r2:hover{
+  box-shadow: 0 0 0.5em 0.05em #D1D1D1;
+}
+div.box-r2 header{
+  position: absolute;
+}
+div.box-r2 header h5{
+  height     : 58px;
+  width      : 100%;
+  padding    : 14px 60px 49px 5px;
+  color      : #00838F;
+  font-size  : 21.33px;
+  line-height: 1.4;
+  position   : absolute;
+  font-weight: normal;
+}
+span.mos{
+  height             : 44px;
+  width              : 37px;
+  background-image   : url(image/IconPack.png);
+  background-repeat  : no-repeat;
+  display            : inline-block;
+  position           : absolute;
+  top                : 5px;
+  right              : 10px;
+  background-position: 4% 35.7%;
+  background-size    : 40px auto;
+}
+div.quis{
+  display    : inline-block;
+  position   : absolute;
+  top        : 62px;
+  right      : 10px;
+  font-weight: bold;
+  font-size  : 11.6px;
+}
+div.quis h5{
+  display    : inline-block;
+  font-size  : 14.66px;
+  font-weight: 600;
+  margin-left: 12px;
+  position   : absolute;
+  min-width  : 50px;
+}
+div.quis h6{
+  display    : inline-block;
+  min-width  : 400px;
+  font-size  : 11.6px;
+  font-weight: bold;
+  position   : absolute;
+  top        : 0px;
+  right      : 50px;
 }
