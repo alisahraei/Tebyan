@@ -1005,7 +1005,7 @@ div.inp input{
   border          : 1px solid #bdbdbd;
   font-family     : 'Tahoma';
 }
-::placeholder{
+div.inp input::placeholder{
   font-size : 14.5px;
   text-align: center;
   color     : #79797A;
@@ -1070,4 +1070,84 @@ div.l1u-down{
   line-height : 1.6;
   word-spacing: -0.05px;
   font-weight : normal;
+}
+div.box-l1d{
+  display       : flex;
+  flex-direction: row-reverse;
+  margin-top    : 17px;
+}
+div.l1b-img1{
+  position: relative;
+  height  : 194px;
+  width   : 304.86px;
+  cursor  : pointer;
+  overflow: hidden;
+}
+div.l1b-img2{
+  position    : relative;
+  height      : 194px;
+  width       : 304.86px;
+  margin-right: 16px;
+  cursor      : pointer;
+  overflow    : hidden;
+}
+div.l1b-img1 img{
+  transition: all 400ms ease-in-out;
+  height    : 194px;
+  width     : 304.86px;
+  position  : absolute;
+  bottom    : 0;
+  object-fit: cover;
+}
+div.l1b-img2 img{
+  transition: all 400ms ease-in-out;
+  height    : 194px;
+  width     : 304.86px;
+  position  : absolute;
+  bottom    : 0;
+  object-fit: cover;
+}
+div.l1b-img1:hover img{
+  transform: scale(1.2) rotate(-0.05deg);
+}
+div.l1b-img2:hover img{
+  transform: scale(1.2) rotate(-0.05deg);
+}
+div.opac-l1b{
+  width           : 304.86px;
+  height          : 32.5px;
+  background-color: #000;
+  opacity         : 0.7;
+  position        : absolute;
+  bottom          : 0;
+}
+div.l1bt-img1{
+  color    : #FFF;
+  font-size: 14.66px;
+  position : absolute;
+  bottom   : 9px;
+  right    : 10px;
+  direction: rtl;
+}
+div.l1bt-img2{
+  color       : #FFF;
+  font-size   : 14.66px;
+  position    : absolute;
+  bottom      : 9px;
+  right       : 10px;
+  direction   : rtl;
+  word-spacing: 0px;
+}
+div.iconplay{
+  height          : 30px;
+  width           : 22.02px;
+  background-color: #0D62A2;
+  position        : absolute;
+  bottom          : 37px;
+  left            : 5px;
+  padding         : 2px;
+}
+div.iconplay span{
+  font-size: 20px;
+  color    : white;
 }
