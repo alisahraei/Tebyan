@@ -1359,3 +1359,28 @@ a#a2-2{
 a#a3-2{
   margin: 25px 15px 12px 10px;
 }
+div.row{
+  margin  : 25px 8px 0 17px;
+  width   : 1416px;
+  height  : 30px;
+  position: relative;
+}
+div.header-bash{
+  position        : absolute;
+  font-size       : 24px;
+  color           : #322E2E;
+  height          : 34px;
+  font-weight     : bold;
+  right           : 0;
+  top             : 3px;
+  background-color: #EEE;
+}
+div.khat-grey{
+  position        : absolute;
+  top             : 50%;
+  left            : 0;
+  transform       : translateY(-50%);
+  background-color: #BDBDBD;
+  height          : 1px;
+  width           : 1255.5px;
+}
