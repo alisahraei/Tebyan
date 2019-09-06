@@ -1012,18 +1012,62 @@ div.inp input{
 }
 div.sub{
   position: absolute;
-  bottom: 18px;
-  right: 106px;
+  bottom  : 20px;
+  right   : 108px;
 }
 div.sub a{
-  color: #333;
+  color           : #333;
   background-color: #E6E6E6;
-  border: 1px solid #8c8c8c;
-  box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
-  border-radius: 3px;
-  font-size: 10pt;
-  margin: 0 5px;
-  padding: 0 10px;
-  max-height: 19px
-  max-width: 75.94px;
+  border          : 1px solid #8c8c8c;
+  box-shadow      : inset 0 3px 5px rgba(0,0,0,.125);
+  border-radius   : 4px;
+  font-size       : 11.5px;
+  margin          : 0 5px;
+  padding         : 0 10px;
+  max-height      : 19px;
+  max-width       : 75.94px;
+  font-weight     : 500;
+  letter-spacing  : 1px;
+}
+div.box-l1{
+  width       : 643px;
+  height      : 403px;
+  padding     : 0 0 0 17px;
+  margin-right: 17px;
+}
+div.box-l1u{
+  width           : 626px;
+  height          : 192px;
+  font-size       : 14.66px;
+  color           : #000;
+  background-color: #00838F;
+  padding         : 57.2px 50px 30px;
+  cursor          : pointer;
+  position        : relative;
+}
+div.l1u-top{
+  color           : #FFF;
+  font-size       : 20px;
+  background-color: #78127E;
+  padding         : 0 15px;
+  height          : 30px;
+  width           : 246px;
+  position        : absolute;
+  top             : 12px;
+  right           : 0;
+  direction       : rtl;
+  word-spacing    : -1px;
+  letter-spacing  : 0px;
+  padding-top     : 1px;
+}
+div.l1u-down{
+  color       : #FFF;
+  font-size   : 21.33px;
+  height      : 103px;
+  width       : 526px;
+  padding-top : 1px;
+  direction   : rtl;
+  line-height : 1.6;
+  word-spacing: -0.05px;
+  font-weight : normal;
 }
