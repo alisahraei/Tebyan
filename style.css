@@ -1151,3 +1151,187 @@ div.iconplay span{
   font-size: 20px;
   color    : white;
 }
+div.box-l2{
+  width       : 130px;
+  height      : 404px;
+}
+div.box-l2 div.il-r1{
+  background-color: #FAFAFA;
+  height          : 88px;
+  width           : 130px;
+  box-shadow      : 0 0 0.1em 0.03em #e0dddb;
+  cursor          : pointer;
+  position        : relative;
+  transition      : 0.3s;
+}
+div.box-l2 div.il-r1:hover{
+  box-shadow: 0 0 0.5em 0.05em #D1D1D1
+}
+div.box-l2 div.il-r1:hover span.baz{
+  box-shadow: 0 0 0.5em 0 #AAA;
+}
+span.baz{
+  height             : 30px;
+  width              : 30px;
+  background-image   : url(image/IconPack.png);
+  background-repeat  : no-repeat;
+  display            : inline-block;
+  position           : absolute;
+  top                : 10px;
+  left               : 15px;
+  background-position: 4% 3.55%;
+  background-size    : 40px auto;
+  border-radius      : 50%;
+  background-color   : #eee;
+}
+div.box-l2 div.il-r2{
+  background-color: #FAFAFA;
+  height          : 88px;
+  width           : 130px;
+  box-shadow      : 0 0 0.1em 0.03em #e0dddb;
+  margin-top      : 17px;
+  position        : relative;
+  transition      : 0.3s;
+}
+div.box-l2 div.il-r2:hover{
+  box-shadow: 0 0 0.5em 0.05em #D1D1D1
+}
+div.box-l2 div.il-r2:hover span.ket{
+  box-shadow: 0 0 0.5em 0 #AAA;
+}
+span.ket{
+  height             : 30px;
+  width              : 30px;
+  background-image   : url(image/IconPack.png);
+  background-repeat  : no-repeat;
+  display            : inline-block;
+  position           : absolute;
+  top                : 10px;
+  left               : 15px;
+  background-position: 4% 7.1%;
+  background-size    : 40px auto;
+  border-radius      : 50%;
+  background-color   : #eee;
+}
+div.box-l2 div.il-r3{
+  background-color: #FAFAFA;
+  height          : 88px;
+  width           : 130px;
+  box-shadow      : 0 0 0.1em 0.03em #e0dddb;
+  margin-top      : 17px;
+  position        : relative;
+  transition      : 0.3s;
+}
+div.box-l2 div.il-r3:hover{
+  box-shadow: 0 0 0.5em 0.05em #D1D1D1
+}
+div.box-l2 div.il-r3:hover span.web{
+  box-shadow: 0 0 0.5em 0 #AAA;
+}
+span.web{
+  height             : 30px;
+  width              : 30px;
+  background-image   : url(image/IconPack.png);
+  background-repeat  : no-repeat;
+  display            : inline-block;
+  position           : absolute;
+  top                : 10px;
+  left               : 15px;
+  background-position: 4% 8.9%;
+  background-size    : 40px auto;
+  border-radius      : 50%;
+  background-color   : #eee;
+}
+div.box-l2 div.il-r4{
+  background-color: #FAFAFA;
+  height          : 88px;
+  width           : 130px;
+  box-shadow      : 0 0 0.1em 0.03em #e0dddb;
+  margin-top      : 17px;
+  position        : relative;
+  transition      : 0.3s;
+}
+div.box-l2 div.il-r4:hover{
+  box-shadow: 0 0 0.5em 0.05em #D1D1D1
+}
+div.box-l2 div.il-r4:hover span.say{
+  box-shadow: 0 0 0.5em 0 #AAA;
+}
+span.say{
+  height             : 30px;
+  width              : 30px;
+  background-image   : url(image/IconPack.png);
+  background-repeat  : no-repeat;
+  display            : inline-block;
+  position           : absolute;
+  top                : 10px;
+  left               : 15px;
+  background-position: 4% 48.15%;
+  background-size    : 40px auto;
+  border-radius      : 50%;
+  background-color   : #eee;
+}
+div.box-l2 div.text-lt{
+  position    : absolute;
+  color       : #9E9E9E;
+  right       : 15px;
+  top         : 18px;
+  font-size   : 10px;
+  word-spacing: -0.5px;
+}
+div.box-l2 div.il-r1:hover div.box-l2 div.link-ll1{
+  color: #00828F;
+}
+div.box-l2 div.il-r2:hover div.box-l2 div.link-ll2{
+  color: #00828F;
+}
+div.box-l2 div.il-r3:hover div.box-l2 div.link-ll3{
+  color: #00828F;
+}
+div.box-l2 div.il-r4:hover div.box-l2 div.link-ll4{
+  color: #00828F;
+}
+div.box-l2 div.link-ll1{
+  font-size  : 14.66px;
+  position   : absolute;
+  right      : 15px;
+  top        : 36px;
+  font-weight: bold;
+  max-width  : 95px;
+  direction  : rtl;
+  line-height: 19px;
+  color      : #322E2E;
+}
+div.box-l2 div.link-ll2{
+  font-size  : 14.66px;
+  position   : absolute;
+  right      : 15px;
+  top        : 36px;
+  font-weight: bold;
+  max-width  : 80px;
+  direction  : rtl;
+  line-height: 19px;
+  color      : #322E2E;
+}
+div.box-l2 div.link-ll3{
+  font-size  : 14.66px;
+  position   : absolute;
+  right      : 15px;
+  top        : 36px;
+  font-weight: bold;
+  max-width  : 300px;
+  direction  : rtl;
+  line-height: 19px;
+  color      : #322E2E;
+}
+div.box-l2 div.link-ll4{
+  font-size  : 14.66px;
+  position   : absolute;
+  right      : 15px;
+  top        : 36px;
+  font-weight: bold;
+  max-width  : 300px;
+  direction  : rtl;
+  line-height: 19px;
+  color      : #322E2E;
+}
