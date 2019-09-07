@@ -1734,7 +1734,7 @@ span.gro{
   position           : absolute;
   top                : 10px;
   left               : 15px;
-  background-position: 4% 48.15%;
+  background-position: 4% 15.98%;
   background-size    : 40px auto;
   border-radius      : 50%;
   background-color   : #eee;
@@ -1802,4 +1802,29 @@ div.box-l3 div.link-ll4{
   direction  : rtl;
   line-height: 19px;
   color      : #322E2E;
+}
+div.section6{
+  width           : 1416px;
+  height          : 137px;
+  background-color: #bdbdbd;
+  margin          : 8px 8px 0 17px;
+  display         : flex;
+  flex-direction  : row-reverse;
+  position        : relative;
+}
+a#a1-6{
+  margin: 25px 36px 10px 10px;
+}
+a#a1-6 img{
+  height: 100px;
+  width : 300px;
+}
+a#a2-6{
+  margin: 25px 38px 10px 10px;
+}
+a#a3-6{
+  margin: 25px 38px 10px 10px;
+}
+a#a4-6{
+  margin: 25px 38px 10px 10px;
 }
