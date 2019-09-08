@@ -2211,5 +2211,29 @@ div.khat-grey5{
 }
 div.text-br1-8-10{
   line-height: 24px;
-  width: 278px;
+  width      : 278px;
+}
+div.propa-left{
+  width           : 130px;
+  height          : 915px;
+  background-color: #bdbdbd;
+  position        : absolute;
+  color           : #000;
+  font-size       : 14.66px;
+  padding         : 15px 0 0;
+  margin-top      : 27px;
+  left            : 0px;
+}
+div.pro{
+  position        : absolute;
+  background-color: white;
+  color           : black;
+  font-size       : 10.66px;
+  top             : 5px;
+  right           : 0;
+  padding         : 0 4px 0 0;
+  border-radius   : 2px;
+}
+div.propa-left img{
+  margin: 31px 5px 5px 5px;
 }
