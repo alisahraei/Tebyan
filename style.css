@@ -2624,7 +2624,7 @@ article.text-12{
   word-spacing: -0.5px;
 }
 div.row8{
-  margin  : 24px 12px 17px 17px;
+  margin  : 24px 12px 10px 17px;
   width   : 1416px;
   height  : 30px;
   position: relative;
@@ -2637,4 +2637,127 @@ div.khat-grey8{
   background-color: #BDBDBD;
   height          : 1px;
   width           : 1267.5px;
+}
+div.section13{
+  width         : 1416px;
+  height        : auto;
+  margin        : 8px 8px 0 17px;
+  display       : flex;
+  flex-direction: row-reverse;
+  padding-top   : 7px;
+}
+div.box-sec-right{
+  height     : auto;
+  width      : 626px;
+  position   : relative;
+  margin-left: 32px;
+}
+div.box-sec-top{
+  height          : 402px;
+  width           : 626px;
+  position        : relative;
+  color           : #000;
+  font-size       : 14.66px;
+  background-color: rgb(255, 255, 255, 0.95);
+}
+div.sec-top-img{
+  height  : 402px;
+  width   : 626px;
+  position: relative;
+  overflow: hidden;
+  cursor  : pointer;
+}
+div.sec-top-img img{
+  height         : 316px;
+  width          : 626px;
+  background-size: 100%;
+  transition     : 0.4s;
+}
+div.sec-top-img:hover img{
+  filter: sepia(100%);
+}
+div.text-sec-top h6{
+  color      : #322E2E;
+  font-size  : 14.66px;
+  padding    : 0 30px;
+  font-weight: bold;
+  position   : absolute;
+  bottom     : 39px;
+  right      : 0;
+}
+div.iconplay2{
+  height          : 30px;
+  width           : 22.02px;
+  background-color: #0D62A2;
+  position        : absolute;
+  bottom          : 95px;
+  left            : 10px;
+  padding         : 2px;
+}
+div.iconplay2 span{
+  font-size: 20px;
+  color    : white;
+}
+div.sec-down13{
+  width         : auto;
+  height        : 192px;
+  margin-top    : 18px;
+  display       : flex;
+  flex-direction: row-reverse;
+}
+div.sec-down-img1{
+  height     : 192px;
+  width      : 313px;
+  margin-left: 15px;
+  position   : relative;
+  overflow   : hidden;
+}
+div.sec-down-img1 img{
+  min-height: 201px;
+  min-width : 313px;
+  position  : absolute;
+  top       : 0;
+}
+div.sec-down-img2{
+  height  : 192px;
+  width   : 298px;
+  position: relative;
+}
+div.sec-down-img2 img{
+  height    : 192px;
+  width     : 298px;
+  position  : absolute;
+  top       : 0;
+  object-fit: cover;
+}
+div.iconplay3{
+  height          : 30px;
+  width           : 22.02px;
+  background-color: #0D62A2;
+  position        : absolute;
+  bottom          : 11px;
+  left            : 10px;
+  padding         : 2px;
+}
+div.iconplay3 span{
+  font-size: 20px;
+  color    : white;
+}
+div.colum{
+  width: 304px;
+  height: 612px;
+}
+div.colum-img{
+  height     : 192px;
+  width      : 304px;
+  margin-left: 15px;
+  position   : relative;
+  overflow   : hidden;
+  margin-bottom: 18px;
+}
+div.colum img{
+  min-height: 196px;
+  min-width : 304px;
+  position  : absolute;
+  top       : 0;
 }
