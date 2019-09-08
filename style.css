@@ -2364,3 +2364,277 @@ span.hon{
   border-radius      : 50%;
   background-color   : #eee;
 }
+div.row7{
+  margin  : 18px 8px 17px 17px;
+  width   : 1416px;
+  height  : 30px;
+  position: relative;
+}
+div.header-mar{
+  position        : absolute;
+  font-size       : 24px;
+  color           : #322E2E;
+  height          : 34px;
+  font-weight     : bold;
+  right           : 0;
+  top             : 3px;
+  background-color: #EEE;
+}
+div.khat-grey7{
+  position        : absolute;
+  top             : 50%;
+  left            : 0;
+  transform       : translateY(-50%);
+  background-color: #BDBDBD;
+  height          : 1px;
+  width           : 1251.5px;
+}
+div.section12{
+  position      : relative;
+  display       : flex;
+  flex-direction: row-reverse;
+  width         : 1416px;
+  height        : auto;
+  margin        : 15px 8px 0 17px;
+}
+div.box-right{
+  width      : 626px;
+  height     : auto;
+  margin-left: 17px;
+}
+div.box-r-top{
+  width           : 626px;
+  background-color: #FAFAFA;
+  box-shadow      : 0 0 0.1em 0.03em #e0dddb;
+  height          : 193px;
+  direction       : rtl;
+  transition      : 0.4s;
+  position        : relative;
+}
+div.box-r-top:hover{
+  box-shadow: 0 0 0.5em 0.05em #D1D1D1;
+}
+div.img-tr{
+  width         : 203px;
+  height        : 193px;
+  position      : relative;
+  display       : flex;
+  flex-direction: row-reverse;
+  overflow      : hidden;
+}
+div.img-tr img{
+  height    : 193px;
+  width     : 203px;
+  position  : absolute;
+  bottom    : 0;
+  transition: all 400ms ease-in-out;
+}
+div.img-tr:hover img{
+  transform: scale(1.2) rotate(-0.05deg);
+}
+div.box-r-down{
+  width           : 626px;
+  background-color: #FAFAFA;
+  box-shadow      : 0 0 0.1em 0.03em #e0dddb;
+  height          : 193px;
+  direction       : rtl;
+  transition      : 0.4s;
+  margin-top      : 17px;
+  position        : relative;
+}
+div.box-r-down:hover{
+  box-shadow: 0 0 0.5em 0.05em #D1D1D1;
+}
+div.img-dr{
+  width         : 203px;
+  height        : 193px;
+  position      : relative;
+  display       : flex;
+  flex-direction: row-reverse;
+  overflow      : hidden;
+}
+div.img-dr img{
+  height    : 193px;
+  width     : 203px;
+  position  : absolute;
+  bottom    : 0;
+  transition: all 400ms ease-in-out;
+}
+div.img-dr:hover img{
+  transform: scale(1.2) rotate(-0.05deg);
+}
+div.box-left{
+  width      : 626px;
+  height     : auto;
+  margin-left: 17px;
+}
+div.box-l-top{
+  width           : 626px;
+  background-color: #FAFAFA;
+  box-shadow      : 0 0 0.1em 0.03em #e0dddb;
+  height          : 193px;
+  direction       : rtl;
+  transition      : 0.4s;
+  position        : relative;
+}
+div.box-l-top:hover{
+  box-shadow: 0 0 0.5em 0.05em #D1D1D1;
+}
+div.img-tl{
+  width         : 203px;
+  height        : 193px;
+  position      : relative;
+  display       : flex;
+  flex-direction: row-reverse;
+  overflow      : hidden;
+}
+div.img-tl img{
+  height    : 193px;
+  width     : 203px;
+  position  : absolute;
+  bottom    : 0;
+  transition: all 400ms ease-in-out;
+}
+div.img-tl:hover img{
+  transform: scale(1.2) rotate(-0.05deg);
+}
+div.box-l-down{
+  width           : 626px;
+  background-color: #FAFAFA;
+  box-shadow      : 0 0 0.1em 0.03em #e0dddb;
+  height          : 193px;
+  direction       : rtl;
+  transition      : 0.4s;
+  margin-top      : 17px;
+  position        : relative;
+}
+div.box-l-down:hover{
+  box-shadow: 0 0 0.5em 0.05em #D1D1D1;
+}
+div.img-dl{
+  width         : 203px;
+  height        : 193px;
+  position      : relative;
+  display       : flex;
+  flex-direction: row-reverse;
+  overflow      : hidden;
+}
+div.img-dl img{
+  height    : 193px;
+  width     : 203px;
+  position  : absolute;
+  bottom    : 0;
+  transition: all 400ms ease-in-out;
+}
+div.img-dl:hover img{
+  transform: scale(1.2) rotate(-0.05deg);
+}
+div.box-l2 div.il-r1:hover span.how{
+  box-shadow: 0 0 0.5em 0 #AAA;
+}
+span.how{
+  height             : 30px;
+  width              : 30px;
+  background-image   : url(image/IconPack.png);
+  background-repeat  : no-repeat;
+  display            : inline-block;
+  position           : absolute;
+  top                : 10px;
+  left               : 15px;
+  background-position: 4% 24.85%;
+  background-size    : 40px auto;
+  border-radius      : 50%;
+  background-color   : #eee;
+}
+div.box-l2 div.il-r1:hover span.con{
+  box-shadow: 0 0 0.5em 0 #AAA;
+}
+span.con{
+  height             : 30px;
+  width              : 30px;
+  background-image   : url(image/IconPack.png);
+  background-repeat  : no-repeat;
+  display            : inline-block;
+  position           : absolute;
+  top                : 10px;
+  left               : 15px;
+  background-position: 4% 26.65%;
+  background-size    : 40px auto;
+  border-radius      : 50%;
+  background-color   : #eee;
+}
+div.box-l2 div.il-r1:hover span.por{
+  box-shadow: 0 0 0.5em 0 #AAA;
+}
+span.por{
+  height             : 30px;
+  width              : 30px;
+  background-image   : url(image/IconPack.png);
+  background-repeat  : no-repeat;
+  display            : inline-block;
+  position           : absolute;
+  top                : 10px;
+  left               : 15px;
+  background-position: 4% 28.45%;
+  background-size    : 40px auto;
+  border-radius      : 50%;
+  background-color   : #eee;
+}
+div.box-l2 div.il-r1:hover span.tan{
+  box-shadow: 0 0 0.5em 0 #AAA;
+}
+span.tan{
+  height             : 30px;
+  width              : 30px;
+  background-image   : url(image/IconPack.png);
+  background-repeat  : no-repeat;
+  display            : inline-block;
+  position           : absolute;
+  top                : 10px;
+  left               : 15px;
+  background-position: 4% 30.2%;
+  background-size    : 40px auto;
+  border-radius      : 50%;
+  background-color   : #eee;
+}
+div.text-12{
+  position: absolute;
+  top: 1px;
+  right: 203px;
+  width: 200px;
+  direction: rtl;
+}
+div.text-12 h6{
+  width: 420px;
+  font-weight: bold;
+  color: #322E2E;
+  font-size: 14.66px;
+  padding: 25px 30px 0;
+}
+article.text-12{
+  color       : #9E9E9E;
+  font-size   : 13.33px;
+  margin      : 18px 233.5px 17px 20px;
+  position    : absolute;
+  width       : 360px;
+  bottom      : 3px;
+  direction   : rtl;
+  line-height : 1.6;
+  text-align  : justify;
+  word-spacing: -0.5px;
+}
+div.row8{
+  margin  : 24px 12px 17px 17px;
+  width   : 1416px;
+  height  : 30px;
+  position: relative;
+}
+div.khat-grey8{
+  position        : absolute;
+  top             : 50%;
+  left            : 0;
+  transform       : translateY(-50%);
+  background-color: #BDBDBD;
+  height          : 1px;
+  width           : 1267.5px;
+}
