@@ -3052,10 +3052,11 @@ div.down-foot{
   width           : 1450px;
   font-size       : 12px;
   background-color: #171516;
-  padding         : 17.5px 15px 15px 15px;
+  padding         : 16px 15px 14px;
   text-align      : center;
   color           : white;
   direction       : rtl;
+  word-spacing: -0.2px;
 }
 div.teb{
   position: absolute;
@@ -3066,4 +3067,164 @@ div.teb2{
   position: absolute;
   bottom  : -5px;
   left    : 0;
+}
+div.left-foot{
+  height   : 174px;
+  width    : 483.33px;
+  color    : #000;
+  font-size: 14.66px;
+  padding  : 10px 20px 0 40px;
+  position : absolute;
+  top      : 0;
+  left     : 0;
+}
+div.tell{
+  height        : 54px;
+  width         : 430.33px;
+  color         : #000;
+  padding       : 7px 0 13px;
+  display       : flex;
+  flex-direction: row-reverse;
+  position      : relative;
+}
+div.phone{
+  position     : relative;
+  width        : 40px;
+  height       : 40px;
+  border       : 1px solid #68bfc8;
+  border-radius: 100%;
+  cursor       : pointer;
+}
+div.phone span.sf-phone{
+  font-size       : 19pt;
+  color           : #277e87;
+  background-color: #fff;
+  border-radius   : 100%;
+  position        : absolute;
+  top             : 50%;
+  left            : 50%;
+  transform       : translate(-50%, -50%);
+  height          : 32px;
+  width           : 32px;
+  box-shadow      : 0 0 0.2em 0 #224f56;
+  padding         : 5px 0 0 3px;
+}
+div.email{
+  height        : 55px;
+  width         : 426.33px;
+  color         : #000;
+  padding       : 7px 0 15px;
+  display       : flex;
+  flex-direction: row-reverse;
+  border-top    : 1px dashed #61bec7;
+  position      : relative;
+}
+div.mail{
+  position     : relative;
+  width        : 40px;
+  height       : 40px;
+  border       : 1px solid #68bfc8;
+  border-radius: 100%;
+  cursor       : pointer;
+}
+div.mail span.sf-at{
+  font-size       : 19pt;
+  color           : #277e87;
+  background-color: #fff;
+  border-radius   : 100%;
+  position        : absolute;
+  top             : 50%;
+  left            : 50%;
+  transform       : translate(-50%, -50%);
+  height          : 32px;
+  width           : 32px;
+  box-shadow      : 0 0 0.2em 0 #224f56;
+  padding         : 2px 0 0 3px;
+}
+div.address{
+  height        : 54px;
+  width         : 426.33px;
+  color         : #000;
+  padding       : 7px 0 12px;
+  display       : flex;
+  flex-direction: row-reverse;
+  border-top    : 1px dashed #61bec7;
+  position      : relative;
+}
+div.add{
+  position     : relative;
+  width        : 40px;
+  height       : 40px;
+  border       : 1px solid #68bfc8;
+  border-radius: 100%;
+  cursor       : pointer;
+}
+div.add span.sf-map-marker{
+  font-size       : 19pt;
+  color           : #277e87;
+  background-color: #fff;
+  border-radius   : 100%;
+  position        : absolute;
+  top             : 50%;
+  left            : 50%;
+  transform       : translate(-50%, -50%);
+  height          : 32px;
+  width           : 32px;
+  box-shadow      : 0 0 0.2em 0 #224f56;
+  padding         : 2px 0 0 3px;
+}
+span.text-tell{
+  height   : 17px;
+  width    : 60px;
+  color    : #FFF;
+  font-size: 12px;
+  padding  : 12px 14.5px;
+  direction: rtl;
+}
+span.con-tell{
+  height   : 17px;
+  width    : 70px;
+  float    : left;
+  font-size: 13px;
+  color    : #FFF;
+  position : absolute;
+  top      : 20px;
+  left     : 10px;
+}
+span.text-mail{
+  height   : 17px;
+  width    : 150px;
+  color    : #FFF;
+  font-size: 12px;
+  padding  : 12px 14.5px;
+  direction: rtl;
+}
+span.con-mail{
+  height   : 17px;
+  width    : 150px;
+  float    : left;
+  font-size: 13px;
+  color    : #FFF;
+  position : absolute;
+  top      : 20px;
+  left     : 10px;
+}
+span.text-add{
+  height   : 17px;
+  width    : 80px;
+  color    : #FFF;
+  font-size: 12px;
+  padding  : 12px 14.5px;
+  direction: rtl;
+}
+span.con-add{
+  height      : 17px;
+  width       : auto;
+  float       : left;
+  font-size   : 12px;
+  color       : #FFF;
+  position    : absolute;
+  top         : 21px;
+  left        : 52px;
+  word-spacing: -0.5px;
 }
