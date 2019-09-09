@@ -3034,3 +3034,36 @@ div.il-r5:hover div.link-ll5 {
 div.il-r6:hover div.link-ll6 {
     color: #00828F;
 }
+footer{
+  width    : 100%;
+  font-size: 11pt;
+}
+div.top-foot{
+  color           : #000;
+  background-color: #00838F;
+  margin          : 17px 0 1px;
+  font-size       : 14.66px;
+  height          : 216px;
+  width           : 1450px;
+  position        : relative;
+}
+div.down-foot{
+  height          : 47px;
+  width           : 1450px;
+  font-size       : 12px;
+  background-color: #171516;
+  padding         : 17.5px 15px 15px 15px;
+  text-align      : center;
+  color           : white;
+  direction       : rtl;
+}
+div.teb{
+  position: absolute;
+  top     : 0;
+  right   : 0
+}
+div.teb2{
+  position: absolute;
+  bottom  : -5px;
+  left    : 0;
+}
